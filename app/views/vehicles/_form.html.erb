@@ -1,0 +1,7 @@
+<%= form_for @vehicle do |f| %>
+  <div class="form-group">
+    <%= f.label :uuid %>
+    <%= f.text_field :uuid, class: "form-control" %>
+  </div>
+  <%= f.submit class: "btn btn-primary" %>
+<% end %>
