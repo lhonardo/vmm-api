@@ -1,4 +1,6 @@
 class Vehicle
   include Mongoid::Document
-  field :uuid, type: String
+  field :color, type: String
+
+  has_many :locations
 end
